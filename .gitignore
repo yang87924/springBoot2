@@ -1,0 +1,4 @@
+# Project exclude paths
+/springboot_01_04_quickstart/target/
+/springboot_02_base_configuration/target/
+/springboot_03_yaml/target/

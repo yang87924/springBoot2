@@ -1,0 +1,77 @@
+country: china
+province: beijing
+city: beijing
+area: haidian
+
+port: 8080
+
+party: true
+
+birthday: 1949-10-01
+
+user:
+  name: itcast
+  age: 16
+
+user2:
+  name: itheima
+  age: 16
+
+
+a:
+  b:
+    c:
+      d:
+        e: 123
+
+likes:
+  - game
+  - music
+  - sleep
+
+likes2: [game,music,sleep]
+
+users:
+  - name: zhangsan
+    age: 18
+  - name: lisi
+    age: 17
+
+users3: [{name:zhangsan,age:18},{name:lisi,age:17}]
+
+users2:
+  -
+    name: zhangsan
+    age: 18
+  -
+    name: lisi
+    age: 17
+
+
+
+baseDir: c:\win10
+
+
+tempDir: ${baseDir}\temp
+
+tempDir2: "${baseDir}\temp \t1 \t2 \t3"
+
+
+#創建類，用於封裝下面的數據
+#由spring幫我們去家仔數據到對向中，一定要告訴spring加載這組信息
+#使用時候從spring中直接獲取信息使用
+datasource:
+  driver: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost/springboot_db
+  username: root
+  password: root666123
+server:
+  port: 80
+  servlet:
+    context-path: /test123
+
+
+
+
+
+
